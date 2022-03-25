@@ -206,6 +206,7 @@ class DWARFStructs(object):
             DW_FORM_sdata=self.Dwarf_sleb128(''),
             DW_FORM_udata=self.Dwarf_uleb128(''),
 
+            DW_FORM_line_strp=CString(''),
             DW_FORM_string=CString(''),
             DW_FORM_strp=self.Dwarf_offset(''),
             DW_FORM_strx1=self.Dwarf_uint8(''),
